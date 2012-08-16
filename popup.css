@@ -1,0 +1,35 @@
+#qr-code {
+    margin: 20px;
+    text-align: center;
+}
+
+#qr-code-img {
+    margin: 0px auto;
+    box-shadow: 0px 0px 4px 0px #aaa;
+    
+    -webkit-transition: 500ms;
+    
+    cursor: pointer;
+}
+
+#qr-code-img:hover {
+    box-shadow: 0px 0px 12px 0px #22f;
+}
+
+
+#param-table {
+    width: 100%;
+}
+
+#param-field {
+    margin: 20px;
+}
+
+#param-table td {
+    width: 100%;
+}
+
+
+#out-field {
+    text-align: center;
+}

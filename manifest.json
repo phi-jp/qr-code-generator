@@ -1,0 +1,19 @@
+{
+    "name": "QR Code Generator",
+    "version": "0.1.0",
+    "description": "QR Code を生成するエクステンション",
+    
+    "icons": {
+        "48" : "icon.png",
+        "128": "icon.png"
+    },
+    
+    "browser_action": {
+        "default_icon": "icon.png",
+        "popup": "popup.html"
+    },
+    
+    "permissions": [
+        "tabs"
+    ]
+}

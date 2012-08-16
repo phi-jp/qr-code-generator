@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <link href="popup.css" rel="stylesheet">
+        
+        <script src="./libs/tmlib.js/tmlib.js"></script>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <div id="qr-code">
+            <img id="qr-code-img" />
+        </div>
+        <div id="param-field">
+            <table id="param-table" border>
+                <tr>
+                    <th>
+                        <label>URL</label>
+                    </th>
+                    <td>
+                        <input id="url" type="input" onclick="this.select();" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label>Size</label>
+                    </th>
+                    <td>
+                        <input id="size" type="input" value="160x160" />
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label>Color</label>
+                    </th>
+                    <td>
+                        <input id="color" type="input" value="000000ff" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="out-field">
+            <label>OUT: <input id="out" type="input" onclick="this.select();" /></label>
+            <button id="tweet">Tweet</button>
+        </div>
+    </body>
+</html>
